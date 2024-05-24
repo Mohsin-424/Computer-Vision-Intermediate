@@ -1,13 +1,13 @@
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 import tensorflow.keras.backend as K
 import cv2
 import requests
 import os
 
-plt.style.use("ggplot")
+# plt.style.use("ggplot")
 
 # Define functions for metrics (dice coefficients, IoU, etc.)
 def dice_coefficients(y_true, y_pred, smooth=100):
