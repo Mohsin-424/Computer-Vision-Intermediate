@@ -1,6 +1,6 @@
 numpy
 matplotlib
-opencv_python
+opencv-python-headless
 streamlit
 tensorflow
 tensorflow_intel
