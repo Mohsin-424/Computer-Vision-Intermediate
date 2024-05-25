@@ -1,6 +1,7 @@
-numpy
-matplotlib
-opencv-python-headless
 streamlit
 tensorflow
-tensorflow_intel
+opencv-python
+numpy
+matplotlib
+bcrypt
+requests
