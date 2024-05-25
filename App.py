@@ -81,7 +81,7 @@ def add_user():
             hashed_password = bcrypt.hashpw(new_password.encode(), bcrypt.gensalt())
             st.session_state['user_data']['usernames'].append(new_username)
             st.session_state['user_data']['passwords'].append(hashed_password)
-            st.sidebar.success("User added successfully!")
+            st.sidebar.success("Registered Successfully!")
         else:
             st.sidebar.error("Please provide both username and password")
 
