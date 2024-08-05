@@ -1,4 +1,4 @@
-ultralytics
+ultralytics // YOLOV8
 scikit-learn
 tensorflow
 scikit-image
