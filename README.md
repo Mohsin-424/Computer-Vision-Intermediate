@@ -1,2 +1,1 @@
-# streamlit
-this repo contain different streamlit apps
+1. Git clone
