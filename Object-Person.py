@@ -17,6 +17,7 @@ while True:
         print('No more frames to detect')
         exit()
         
+        
     cv2.imshow( 'Frame ' , frame )
     
     
